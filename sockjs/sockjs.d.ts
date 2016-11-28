@@ -4,7 +4,7 @@
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
 interface SockJSSimpleEvent {
-    type: string;
+    readonly type: string;
     toString(): string;
 }
 
